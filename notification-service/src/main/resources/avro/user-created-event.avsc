@@ -1,0 +1,22 @@
+{
+  "name": "UserCreatedEvents",
+  "namespace": "com.example.notification_service.events",
+  "type": "record",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long",
+      "default": 0
+    },
+    {
+      "name": "fullName",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "default": ""
+    }
+  ]
+}
